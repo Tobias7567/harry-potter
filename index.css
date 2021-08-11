@@ -1,0 +1,469 @@
+*{
+    margin: 0%;
+    padding: 0%;
+flex-wrap: wrap;
+
+}
+body{
+    background-image: url(imagenes/fondo.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 15vh;
+justify-content: space-between;
+
+}
+
+.logo{
+    width: 15%;
+    height: 100%;
+}
+.ulnav{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    height: 100%;
+    position: relative;
+    justify-content: right;
+    list-style: none;
+
+}
+.linav{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 1.5em;
+    height: 100%;
+    width: 20%;
+    color:  rgb(0, 0, 0);
+    margin: 5%;
+    text-shadow: 1.5px 1.5px 1.5px white ;
+    text-decoration: none;
+    font-style: none;
+}
+.anav{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+h1{
+    display: flex;
+    justify-content: center;
+
+    font-size:  4em;
+    text-shadow: 2px 2px 2px white;
+    margin: 1%;
+}
+.fraseinicio{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+    text-shadow: 1px 1px 1px white;
+    padding: 5%;
+}
+/*fin de inicio*/
+/*principio de casas */
+.casa{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    flex-wrap: wrap;
+    
+  
+
+}
+.casascolores{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 15%;
+    height: 22em;
+    margin: 0%;
+    margin-top: 0%;
+    padding: 1.5%;
+    
+    flex-wrap: wrap;
+}
+.logocolores{
+    width: 80%;
+    height: 55%;
+    margin-left: 8%;
+   
+   
+    
+    
+}
+.color1{
+    border: 5px solid rgb(82, 1, 1);
+   
+}
+.color2{
+    border: 5px solid rgb(235, 252, 0);
+   
+    
+}
+.color3{
+    border: 5px solid rgb(19, 0, 87);
+   
+}
+.color4{
+    border: 5px solid rgb(0, 104, 26);
+   
+}
+.nombrecasas{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 230%;
+    text-shadow: 3px 3px 3px white;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+/*fin de casas*/
+/*principio de personajes */
+.personaje{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   text-align: center;
+   width: 100%;
+
+}
+.personajehijo{
+display: flex;
+flex-direction: column;
+width: 25%;
+margin: 2%;
+justify-content: center;
+text-align: center;
+}
+.nombrepersonajes{
+    justify-content: center;
+text-align: center;
+font-size: 2.2em;
+text-shadow: 2px 2px 2px white;
+margin-left: -8%;
+
+}
+.logopersonajes{
+   height: 40%;
+    margin-left: 19%;
+    border: 5px solid rgb(85, 1, 1);
+   
+
+}
+.personaje2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10%;
+  
+}/*fin de personajes */
+@media (max-width: 1061px) {/*principio de inicio */
+    .ulnav{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        height: 100%;
+        position: relative;
+        justify-content: right;
+        list-style: none;
+    
+    }
+    .linav{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        font-size: 1.5em;
+        height: 100%;
+        width: 30%;
+        color:  rgb(0, 0, 0);
+        margin: 1%;
+   
+        text-shadow: 2px 2px 2px white ;
+        text-decoration: none;
+        font-style: none;
+        flex-wrap: wrap;
+    }
+  
+    .fraseinicio{
+    
+        display: flex;
+        justify-content: center;
+text-align: center;
+        font-size: 1.7em;
+        text-shadow: 1px 1px 1px white;
+        padding: 4%;
+    }
+    /*fin de inicio */
+    /*principio de casas */
+    .casa{
+        display: flex;
+        text-align: center;
+        
+        width: 100%;
+        height: 60%;
+        flex-wrap: wrap;
+        margin-left: 0%;
+        box-sizing: border-box;
+    }
+    .nombrecasas{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 200%;
+        text-shadow: 3px 3px 3px white;
+    }
+    .casascolores{
+        display: flex;
+        flex-direction: column;
+       
+       justify-content: center;
+        width: 15%;
+        height: 100%;
+        
+        margin-left: 0%;
+        
+
+        padding: 4%;
+        
+        flex-wrap: wrap;
+    }
+    /*fin de casas*/
+    /*principio de personajes */
+    .nombrepersonajes{
+        justify-content: left;
+    text-align: center;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 2px white;
+    margin-left: 10%;
+    
+    }
+    
+}.personaje{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+ 
+ }
+ .personajehijo{
+ display: flex;
+ flex-direction: column;
+ width: 25%;
+ margin: 3.5%;
+ justify-content: left;
+ text-align: center;
+ }
+
+ .logopersonajes{
+     width: 80%;
+     height: 80%;
+     margin-left: 14%;
+     border: 5px solid rgb(85, 1, 1);
+    
+ 
+ }
+ .personaje2{
+     display: flex;
+     justify-content: left;
+     flex-direction: row;
+     text-align: center;
+     width: 100%;
+     margin-bottom: 10%;
+   
+
+   }
+
+
+    /*fin de personajes */
+
+   @media (max-width: 920px){
+       /*nav*/
+       .ulnav{
+        display: flex;
+        flex-direction: row;
+        width: 35%;
+        height: 100%;
+        position: relative;
+        justify-content: right;
+        list-style: none;
+    
+    }
+    .linav{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        font-size: 1.3em;
+        height: 100%;
+        width: 20%;
+        color:  rgb(0, 0, 0);
+        margin: 5%;
+        text-shadow: 1.5px 1.5px 1.5px white ;
+        text-decoration: none;
+        font-style: none;
+    }
+   /*fin de nav */
+   /*principio de casas */
+
+    .casa{
+        display: flex;
+        text-align: center;
+       justify-content: center;
+        width: 100%;
+        height: 60%;
+        flex-wrap: wrap;
+        margin-left: 0%;
+        box-sizing: border-box;
+    }
+    .casascolores{
+        display: flex;
+        flex-direction: column;
+       
+       justify-content: center;
+        width: 16%;
+        height: 90%;
+        
+        margin-left: 0%;
+        
+
+        padding: 4%;
+        
+        flex-wrap: wrap;
+    }
+    /*fin de casas*/
+
+   }
+  
+    @media (max-width: 550px){
+        /*nav*/
+        .logo{
+            width: 25%;
+            height: 90%;
+        }
+        .ulnav{
+            width: 60%;
+        }
+        .linav{   
+          font-size: 1em; 
+    }
+    /*fin  de nav */
+    /*titulo*/
+    h1 {
+        font-size: 3em;
+    }
+    .fraseinicio{
+        font-size: 1.5em;
+        color:rgb(59, 0, 0);
+        text-shadow: 2px 2px 2px white;
+    }
+    /*fin titulos*/
+    /*principio de casas*/
+    .casa{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        
+      
+    
+    }
+    .casascolores{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content:center;
+        width: 100%;
+        height: 35%;
+        flex-wrap: wrap;
+    }
+    .nombrecasas{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 2em;
+        text-shadow: 3px 3px 3px white;
+    }
+    h3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.4em;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+    }
+.logocolores{
+    width: 30%;
+    height: 55%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-left: 35%;
+}
+/*fin de casas*/
+/*principio de personajes*/
+.personaje{
+    display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+ 
+ }
+ .personajehijo{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ justify-content: center;
+ width: 100%;
+ height: 30%;
+ }
+
+ .logopersonajes{
+     width: 50%;
+     height: 72%;
+    margin-left: 25%;
+
+     border: 5px solid rgb(85, 1, 1);
+    
+ 
+ }
+ .personaje2{
+     display: flex;
+     justify-content: left;
+   
+     text-align: center;
+     width: 100%;
+     height: 100%;
+    
+   margin-top: 5%;
+
+
+   }
+   .nombrepersonajes{
+
+margin-left: 0%;
+
+}
